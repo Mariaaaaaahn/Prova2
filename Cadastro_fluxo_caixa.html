@@ -20,24 +20,24 @@
             </h1>
     <form action="cadastro_fluxo_caixa.php" method="post">
         <div>
-            <label for="data">Data</label>
+            <label for="data">Data:</label>
             <input type="date" name="data" id="data">
         </div>
         <div class="form-group">
-            <label for="tipo">Tipo: </label>
+            <label for="tipo">Tipo:</label>
             <input type="radio" name="tipo" value="Entrada"/> Entrada<br />
             <input type="radio" name="tipo" value="saida"/> Saida<br />
         </div>
         <div>
-            <label for="valor">Valor: </label>
+            <label for="valor">Valor:</label>
             <input type="number" name="valor" id="valor" step=".01">
         </div>
         <div>
-            <label for="historico">Histórico: </label>
+            <label for="historico">Histórico:</label>
             <input type="text" name="historico" id="historico">
         </div>
         <div>
-            <label for="cheque">Cheque: </label>
+            <label for="cheque">Cheque:</label>
             <select name="cheque">
                 <option value="sim" selected>Sim</option>
                 <option value="nao">Não</option>
@@ -47,7 +47,5 @@
         
         <input type="submit" value="Salvar">
     </form>
-
-    <a href="index.php">Voltar</a>
-</body>
+    
 </html>

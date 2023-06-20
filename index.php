@@ -15,8 +15,8 @@
     </h1>
     <ul class="menu">
         <li><a href="Cadastro_fluxo_caixa.html">Cadastrar fluxo de Caixa</a></li>
-        <li><a href="Pages/listar_agenda.php">Listar fluxo de caixa</a></li>
-        <li><a href="Pages/listar_agenda.php">Consultar saldo do caixa</a></li>
+        <li><a href="Listar_fluxo_caixa.php">Listar fluxo de caixa</a></li>
+        <li><a href="Consulta_fluxo_caixa.html">Consultar saldo do caixa</a></li>
     </ul>
 </body>
 </html>

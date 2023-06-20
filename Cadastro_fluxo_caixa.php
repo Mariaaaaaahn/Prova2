@@ -4,8 +4,10 @@ include("conexao.php");
 $data = $_POST['data'];
 $tipo = $_POST['tipo'];
 $valor = $_POST['valor'];
-$hist = $_POST['hist'];
+$historico = $_POST['historico'];
 $cheque = $_POST['cheque'];
+
+
 
 echo "<h1>Dados do usuário</h1>";
 echo "Data: $data <br>";
@@ -25,5 +27,5 @@ echo "Dados cadastrados com sucesso";}
 else{
 echo "Erro ao tentar cadastrar!";}
 
-$result = mysqli_query($con, $sql);
+
 ?>
