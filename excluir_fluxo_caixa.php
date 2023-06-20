@@ -11,6 +11,7 @@
     echo "<p>Código: $codigo</p>";
     $sql = "delete from fluxo_caixa where id = $id";
 
+    
 
     $result = mysqli_query($con, $sql);
     if($result)

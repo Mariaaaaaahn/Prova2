@@ -9,6 +9,7 @@ $valor = $_POST['valor'];
 $historico = $_POST['historico'];
 $cheque = $_POST['cheque'];
 
+
 echo "<h1>Alteração de dados</h1>";
 
 $sql = "update fluxo_caixa set 

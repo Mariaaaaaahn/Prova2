@@ -2,6 +2,7 @@ DROP DATABASE IF EXISTS fluxo_caixa;
 CREATE DATABASE fluxo_caixa;
 USE fluxo_caixa;
 
+
 create table fluxo_caixa(
 id  integer NOT NULL AUTO_INCREMENT,
 data DATE NOT NULL, 

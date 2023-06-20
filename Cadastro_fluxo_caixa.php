@@ -8,7 +8,6 @@ $historico = $_POST['historico'];
 $cheque = $_POST['cheque'];
 
 
-
 echo "<h1>Dados do usuário</h1>";
 echo "Data: $data <br>";
 echo "Tipo: $tipo <br>";
